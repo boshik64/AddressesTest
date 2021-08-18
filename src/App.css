@@ -1,0 +1,12 @@
+.app-wrapper {
+  display: grid;
+  grid-template-rows: 80px 1fr;
+  grid-template-columns: 300px 1fr;
+  grid-template-areas:
+    "header header"
+    "navbar content";
+}
+
+.content-wrapper {
+  grid-area: content;
+}

@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #1C1C1E;
+  scrollbar-color:#4F27BF #fff;
+  scrollbar-width:thin;
+  /* width: 100%;
+  max-width: 1440px; */
+}
+
+::-webkit-scrollbar {
+  width: 6px; /* ширина для вертикального скролла */
+  height: 7px; /* высота для горизонтального скролла */
+  background-color: rgba(255, 0, 0, 0);
+}
+::-webkit-scrollbar-thumb {
+  background-color: #4F27BF;
+  border-radius: 5px;
+  height: 27px;
+}
+
+
+h1,h2,h3,h4,h5,h6{
+  margin: 0;
+}
+
+p{
+  margin: 0;
+}
+
+*,
+*:before,
+*:after{
+  box-sizing: border-box;
+}
+
+/* code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */

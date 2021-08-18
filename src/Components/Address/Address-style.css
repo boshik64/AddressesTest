@@ -1,0 +1,91 @@
+.address{
+    padding: 32px;
+}
+
+.address__title{
+    margin-bottom: 16px;
+}
+
+.address__instruction{
+    margin-bottom: 24px;
+    font-size: 20px;
+}
+
+.address__block{
+    display: flex;
+    justify-content: space-between;
+}
+
+.address__input{
+    /* width: 835px; */
+    width: 70%;
+    height: 70px;
+    margin-right: 24px;
+    border: 3px solid #4F27BF;
+    border-radius: 10px;
+    outline: none;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 23px 0 23px 24px;
+
+}
+
+.address__input::placeholder{
+    font-size: 20px;
+    font-weight: 500;
+    color: #6C6C6C;
+}
+
+.address__input:focus::-webkit-input-placeholder {
+    color: transparent
+  }
+
+.address__button-img{
+    margin-right: 16px;
+    padding: 19px 0;
+}
+
+.address__button-text{
+    font-size: 26px;
+    font-weight: 700;
+    color: #fff;
+    padding: 19px 0;
+}
+
+.address__button{
+    justify-content: center;
+    /* width: 217px; */
+    width: 30%;
+    height: 70px;
+    background-color: #4F27BF;
+    border-radius: 10px;
+    border-color: #6435e6;
+    display: flex;
+    
+    font-size: 26px;
+    font-weight: 700;
+    color: #fff;
+    /* margin: 0 auto; */
+
+}
+
+.address__ul{
+    margin: 32px 0;
+    padding: 0;
+    box-shadow: 0px 2px 8px #02006125;
+    border-radius: 10px;
+}
+
+.address__ul li{
+    font-size: 20px;
+    font-weight: 500;
+    color: #000;
+    padding: 16px 0;
+    margin: 0 24px;
+    list-style: none;
+    border-bottom: 1px solid #D7D7D7;
+}
+
+.address__ul li:first-child{
+    content: ('Адреса');
+}

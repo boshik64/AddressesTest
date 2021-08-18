@@ -1,0 +1,22 @@
+.news {
+    margin: 32px;
+}
+
+.news__title {
+    font-weight: 700;
+    font-size: 26px;
+    margin-bottom: 16px;
+}
+
+.news__theme {
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 24px;
+}
+
+.news__text {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: left;
+}

@@ -1,0 +1,57 @@
+.navbar {
+    grid-area: navbar;
+    padding: 25px 0 0 32px;
+    overflow: scroll;
+    height: 100%;
+
+    box-shadow: 0px 0px 5px 0px rgba(2, 0, 96, 0.25);
+}
+
+.navbar__title {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 32px;
+}
+
+.navbar__item {
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+
+/* .navbar__item[open] {
+    transform: rotate(180deg);
+} */
+
+.navbar__item summary {
+    display: flex;
+
+}
+
+.navbar__item p {
+    margin-left: 48px;
+    margin: 32px 0 32px 48px;
+}
+
+.navbar__item-a {
+    display: flex;
+    position: relative;
+    text-decoration: none;
+    color: inherit;
+    margin: 24px 0;
+}
+
+.navbar__item-name {
+    margin: 4px 0;
+}
+
+.navbar__polygon {
+    margin-left: auto;
+    margin-right: 15px;
+    transform: rotate(180deg);
+}
+
+.navbar__item-logo {
+    height: 32px;
+    width: 32px;
+    margin-right: 16px;
+}
